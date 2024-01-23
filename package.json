@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "description": "The project of clone of twitter and youtube in one app",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "author": "The Aakash Jadhav",
   "license": "ISC",
   "devDependencies": {
     "prettier": "^3.2.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.0"
   }
 }
